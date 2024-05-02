@@ -1,0 +1,42 @@
+<!-- Cibely Cristiny dos Santos N°04 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/css.css">
+    </head>
+    <body>
+        <main>
+            <div id="formulario"> 
+                
+                <form action="index.html" method="post">
+                    <h1 id="formulario">Formulário de login</h1>
+                    
+                    <div class="container">
+                        <img id="imagem" src="./imgs/icon_usuario.jpg" width="200" height="205" />
+                    </div>
+                    
+                <label id="nome" for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Entre com o nome de usuário" required/>
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Entre com sua senha" required/>
+
+                <div id="nivel">
+                    <label for="Nível de acesso">Nível de acesso:</label>
+                    <select name="nivel" id="">
+                        <option value="">Usuário comum</option>
+                        <option value="">Admin</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="redefinirsenha.html">Esqueceu sua senha?</a>
+            </div>
+        </main>
+</body>
+</html>
